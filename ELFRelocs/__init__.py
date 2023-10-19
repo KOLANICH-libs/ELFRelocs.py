@@ -1,4 +1,7 @@
 from enum import IntEnum
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-libs/ELFRelocs.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 from .relocEnums import *
 from .relocImpls import *
